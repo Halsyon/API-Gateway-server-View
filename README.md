@@ -4,8 +4,14 @@
 ## API Gateway Server View
 
 App under construction
+The application is designed to route services using Cloud Gateway.
 
-service registration in eureka
+Used technology stack:
+- Java (Back-end)
+- Spring Boot (Actuator)
+- Spring Cloud (config, gateway, netflix-eureka-client)
+- Lombok
+- Maven
 
 ![Image of Arch](https://github.com/Halsyon/API-Gateway-Server-View/blob/master/image/Screenshot_2.jpg)
 
@@ -37,6 +43,9 @@ assigning a new correlation identifier
     http://localhost:8072/actuator/info
 ![Image of Arch](https://github.com/Halsyon/API-Gateway-Server-View/blob/master/image/Actuator_info_getaway.png)
 
+## Contact
+
+You can email me <Grandjek@tutanota.com> anything you would like to say about this software.
 
 
 
