@@ -12,8 +12,6 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Заключительный фильтр
- * возврат информации от последнего сервиса на API Gateway службу,
- * перед возвратом вызывающему клиенту
  */
 @Data
 @Slf4j
