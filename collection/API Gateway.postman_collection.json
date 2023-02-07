@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "051e0495-5db2-4290-9990-47fcb71915e4",
+		"name": "API Gateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19373002"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8072/actuator/gateway/routes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8072/actuator/gateway/routes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8072",
+					"path": [
+						"actuator",
+						"gateway",
+						"routes"
+					]
+				},
+				"description": "routes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8072/organization-service/v1/organization/optimaGrowth",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "tmx-correlation-id",
+						"value": "TEST-CORRELATION ID",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8072/organization-service/v1/organization/optimaGrowth",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8072",
+					"path": [
+						"organization-service",
+						"v1",
+						"organization",
+						"optimaGrowth"
+					]
+				},
+				"description": "correlation Identifier "
+			},
+			"response": []
+		}
+	]
+}
