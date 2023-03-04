@@ -1,10 +1,11 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Halsyon/API-Gateway-Server-View?logo=github)
 ![GitHub top language](https://img.shields.io/github/languages/top/Halsyon/API-Gateway-Server-View?logo=java&logoColor=red)
 
-## API Gateway Server View
+### API Gateway Server View
 
 App under construction
 The application is designed to route services using Cloud Gateway.
+This is a demo version of the application, the project does not contain business logic.
 
 Used technology stack:
 - Java (Back-end)
@@ -13,13 +14,13 @@ Used technology stack:
 - Lombok
 - Maven
 
-![Image of Arch](https://github.com/Halsyon/API-Gateway-Server-View/blob/master/image/Screenshot_2.jpg)
+![Image of Arch](https://github.com/Halsyon/API-Gateway-Server-View/blob/master/image/Eureka-reg.png)
 
 route map
 
     http://localhost:8072/actuator/gateway/routes
 
-![Image of Arch](https://github.com/Halsyon/API-Gateway-Server-View/blob/master/image/Actuator_routes.png)
+![Image of Arch](https://github.com/Halsyon/API-Gateway-Server-View/blob/master/image/Actuator_routes.jpg)
 
 
 service gateway to access the service licensing-service
@@ -43,7 +44,7 @@ assigning a new correlation identifier
     http://localhost:8072/actuator/info
 ![Image of Arch](https://github.com/Halsyon/API-Gateway-Server-View/blob/master/image/Actuator_info_getaway.png)
 
-## Contact
+### Contact
 
 You can email me <Grandjek@tutanota.com> anything you would like to say about this software.
 
