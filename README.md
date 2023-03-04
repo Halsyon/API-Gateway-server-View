@@ -9,8 +9,8 @@ This is a demo version of the application, the project does not contain business
 
 Used technology stack:
 - Java (Back-end)
-- Spring Boot (Actuator)
-- Spring Cloud (config, gateway, netflix-eureka-client)
+- Spring Boot ()
+- Spring Cloud ()
 - Lombok
 - Maven
 
